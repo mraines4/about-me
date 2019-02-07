@@ -1,173 +1,173 @@
 html, body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-width: 100%;
 }
 .container {
-    width: 100%; 
-    height: 100%;
-    /* border: 3px solid black; */
-    display: flex;
-    flex-direction: column; 
+  width: 100%; 
+  height: 100%;
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column; 
 }
 img {
-    display: block;
-    margin: 0 auto;
-    height: 300px;
-    max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  max-width: 100%;
 }
 .navbar {
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    display: flex;
-    background-color: rgba(53, 56, 66, 0.85);
-    box-shadow: 3px 3px 3px gray;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  background-color: rgba(53, 56, 66, 0.85);
+  box-shadow: 3px 3px 3px gray;
 }
  .navleft {
-    min-width: 50%;
-    max-width: 50%;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  min-width: 50%;
+  max-width: 50%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 } 
  .navright {
-    max-width: 50%;
-    min-width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+  max-width: 50%;
+  min-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 .navbar a {
-    font-weight: 200;
-    font-size: 25px;
-    color: ghostwhite;
-    padding: 14px 16px;
-    text-decoration: none;
+  font-weight: 200;
+  font-size: 25px;
+  color: ghostwhite;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: 100% 100%;
-    height: 70vh;
-    width: 100%;
-    background-image: url('../images/computer-image.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: ghostwhite;
-    text-shadow: 2px -2px 4px gray;
-    background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% 100%;
+  height: 70vh;
+  width: 100%;
+  background-image: url('../images/computer-image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: ghostwhite;
+  text-shadow: 2px -2px 4px gray;
+  background-attachment: fixed;
 }
 .intro-writing h1 {
-    padding-top: 100px;
-    font-size: 40px;
-    margin: 0;
+  padding-top: 100px;
+  font-size: 40px;
+  margin: 0;
 }
 .intro-writing h3 {
-    font-style: italic;
-    font-size: 24px;
-    margin: 0;
+  font-style: italic;
+  font-size: 24px;
+  margin: 0;
 }
 .content-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .hobbies {
-    height: 500px;
-    background-image: url(http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg);
-    background-size: 100%, 100%;
-    background-attachment: fixed;
+  height: 500px;
+  background-image: url(http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg);
+  background-size: 100%, 100%;
+  background-attachment: fixed;
 }
 .hobbies .section-header {
-    text-align: center;
-    color: black;
-    font-size: 25px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
 }
 .hobbies .card {
-    color: black;
-    padding: 20px;
-    width: 33%;
-    font-size: 20px;
+  color: black;
+  padding: 20px;
+  width: 33%;
+  font-size: 20px;
 }
 .education {
-    height: 400px;
-    background-image: url(../images/chalkboard.jpg);
-    background-size: 100%, 100%;
-    background-attachment: fixed;
-    width: 100%;
-    
+  height: 400px;
+  background-image: url(../images/chalkboard.jpg);
+  background-size: 100%, 100%;
+  background-attachment: fixed;
+  width: 100%;
+  
 }
 .education .section-header {
-    text-align: center;
-    color: ghostwhite;
-    font-size: 25px;
-    
+  text-align: center;
+  color: ghostwhite;
+  font-size: 25px;
+  
 }
 .education .card {
-    color: ghostwhite;
-    width: 50%;
-    text-align: center;
-    font-size: 18px;
+  color: ghostwhite;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
 }
 .experience {
-    background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
-    background-attachment: fixed;
-    background-size: 100%, 100%;
-    height: 400px;
+  background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+  background-attachment: fixed;
+  background-size: 100%, 100%;
+  height: 400px;
 }
 .experience .section-header {
-    text-align: center;
-    color: ghostwhite;
-    font-size: 25px;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 25px;
 }
 .experience .card {
-    color: ghostwhite;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 50%;
-    text-align: left;
+  color: ghostwhite;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 50%;
+  text-align: left;
 }
 .contact {
-    width: 100%; /* Full width */
-    display: flex;
-    background-image: url(http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg);
-    background-attachment: fixed;
-    background-size: 100%, 100%;
+  width: 100%; /* Full width */
+  display: flex;
+  background-image: url(http://chesterspirit.com/wp-content/uploads/2016/02/Plain-Grey-Background.jpg);
+  background-attachment: fixed;
+  background-size: 100%, 100%;
 }
 .links {
-    min-width: 50%;
-    max-width: 50%;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  min-width: 50%;
+  max-width: 50%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 } 
  .copyright {
-    max-width: 40%;
-    min-width: 40%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    color: ghostwhite;
+  max-width: 40%;
+  min-width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: ghostwhite;
  }
  .contact a {
-    font-weight: 200;
-    font-size: 25px;
-    color: ghostwhite;
-    padding: 14px 16px;
-    text-decoration: none;
+  font-weight: 200;
+  font-size: 25px;
+  color: ghostwhite;
+  padding: 14px 16px;
+  text-decoration: none;
  }
