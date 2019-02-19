@@ -1,4 +1,3 @@
 # about-me
 
-
-upgraded/complete revamp About Me page
+Pre-work assignment for DigitalCrafts bootcamp
